@@ -1222,3 +1222,184 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.07.15-18.18.38:027][452]SourceControl:  create mode 100644 GameJame2022/Content/TopDownBP/TopDownOverview.uasset
 [2022.07.15-18.18.38:027][452]SourceControl:  create mode 100644 GameJame2022/GameJame2022.uproject
 [2022.07.15-18.18.38:039][452]SourceControl: Commited [main 77e5124] Adding Project.
+[2022.07.15-18.23.36:357][600]LogSlate: Window 'Source Control Login' being destroyed
+[2022.07.15-18.37.18:526][892]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.15-18.37.18:531][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.15-18.37.18:532][892]PIE: New page: PIE session: TopDownExampleMap (Jul 15, 2022, 8:37:18 AM)
+[2022.07.15-18.37.18:533][892]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.07.15-18.37.18:535][892]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.07.15-18.37.18:535][892]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.07.15-18.37.18:550][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014692s)
+[2022.07.15-18.37.18:551][892]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.07.15-18.37.18:552][892]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2022.07.15-18.37.18:552][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.016656s)
+[2022.07.15-18.37.18:558][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.07.15-18.37.18:560][892]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.07.15-18.37.18:560][892]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.15-18.37.18:560][892]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.15-18.37.18:560][892]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.15-18.37.18:560][892]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.15-18.37.18:560][892]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.15-18.37.18:560][892]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.15-18.37.18:560][892]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.15-18.37.18:560][892]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.15-18.37.18:561][892]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.15-18.37.18:561][892]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.15-18.37.18:561][892]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.15-18.37.18:561][892]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.15-18.37.18:567][892]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.15-18.37.18:567][892]LogAudioMixer: Display: 1: FrontRight
+[2022.07.15-18.37.18:579][892]LogAudioMixer: Display: Using Audio Device Headphones (Thronmax MDrill Dome Microphone)
+[2022.07.15-18.37.18:579][892]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.15-18.37.18:579][892]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.15-18.37.18:579][892]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.15-18.37.18:580][892]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.15-18.37.18:580][892]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.15-18.37.18:580][892]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.07.15-18.37.18:581][892]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.15-18.37.18:581][892]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.15-18.37.18:581][892]LogInit: FAudioDevice initialized.
+[2022.07.15-18.37.18:581][892]LogAudio: Display: Audio Device (ID: 2) registered with world 'TopDownExampleMap'.
+[2022.07.15-18.37.18:592][892]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.07.15-18.37.18:596][892]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.07.15-13.37.18
+[2022.07.15-18.37.18:597][892]LogWorld: Bringing up level for play took: 0.002085
+[2022.07.15-18.37.18:597][892]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2022.07.15-18.37.18:605][892]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.07.15-18.37.18:606][892]PIE: Server logged in
+[2022.07.15-18.37.18:608][892]PIE: Play in editor total start time 0.077 seconds.
+[2022.07.15-18.37.31:576][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.15-18.37.31:576][436]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.07.15-18.37.31:576][436]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.07.15-18.37.31:577][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.15-18.37.31:588][436]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.15-18.37.31:590][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.15-18.37.31:594][436]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.15-18.37.31:594][436]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.15-18.37.31:595][436]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.15-18.37.31:599][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.15-18.37.31:601][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.07.15-18.37.31:654][438]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.07.15-18.37.49:327][469]LogSlate: Took 0.000396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.15-18.37.49:343][469]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2022.07.15-18.37.49:566][469]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2022.07.15-18.37.50:526][469]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.07.15-18.37.51:640][568]LogSlate: Took 0.006293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.07.15-18.37.54:499][824]LogSlate: Window 'TopDownController' being destroyed
+[2022.07.15-18.38.13:340][854]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.07.15-18.38.13:351][854]LogContentBrowser: Creating deferred item: NewFolder
+[2022.07.15-18.38.17:261][318]LogContentBrowser: Attempting asset rename: NewFolder -> Character
+[2022.07.15-18.38.17:261][318]LogContentBrowser: End creating deferred item NewFolder
+[2022.07.15-18.38.25:227][209]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.07.15-18.38.33:529][209]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.07.15-18.38.33:539][209]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.07.15-18.38.33:550][209]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.07.15-18.38.56:816][999]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_BaseCharacter
+[2022.07.15-18.38.56:936][999]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.07.15-18.40.13:912][601]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/BP_BaseCharacter.BP_BaseCharacter
+[2022.07.15-18.40.14:316][602]LogRenderer: Reallocating scene render targets to support 2052x996 Format 10 NumSamples 1 (Frame:1).
+[2022.07.15-18.40.33:087][713]LogContentBrowser: Attempting asset rename: BP_BaseCharacter -> BP_BoardBaseCharacter
+[2022.07.15-18.40.33:838][713]LogMetaData: Removing '/Game/Character/BP_BoardBaseCharacter.BP_BoardBaseCharacter:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Character/BP_BaseCharacter.PackageMetaData'
+[2022.07.15-18.40.33:838][713]LogMetaData: Removing '/Game/Character/BP_BoardBaseCharacter.SKEL_BP_BoardBaseCharacter_C:UserConstructionScript' ref from Metadata '/Game/Character/BP_BaseCharacter.PackageMetaData'
+[2022.07.15-18.40.33:838][713]LogMetaData: Removing '/Game/Character/BP_BoardBaseCharacter.SKEL_BP_BoardBaseCharacter_C' ref from Metadata '/Game/Character/BP_BaseCharacter.PackageMetaData'
+[2022.07.15-18.40.33:838][713]LogMetaData: Removing '/Game/Character/BP_BoardBaseCharacter.BP_BoardBaseCharacter_C' ref from Metadata '/Game/Character/BP_BaseCharacter.PackageMetaData'
+[2022.07.15-18.40.33:838][713]LogMetaData: Removing '/Game/Character/BP_BoardBaseCharacter.BP_BoardBaseCharacter:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Character/BP_BaseCharacter.PackageMetaData'
+[2022.07.15-18.40.33:838][713]LogMetaData: Removing '/Game/Character/BP_BoardBaseCharacter.BP_BoardBaseCharacter:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Character/BP_BaseCharacter.PackageMetaData'
+[2022.07.15-18.40.33:838][713]LogMetaData: Removing '/Game/Character/BP_BoardBaseCharacter.BP_BoardBaseCharacter:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Character/BP_BaseCharacter.PackageMetaData'
+[2022.07.15-18.40.33:861][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_BoardBaseCharacter" FILE="W:/GMTK2022GameJam/GameJame2022/Content/Character/BP_BoardBaseCharacter.uasset" SILENT=true
+[2022.07.15-18.40.33:866][713]LogSavePackage: Moving 'W:/GMTK2022GameJam/GameJame2022/Saved/BP_BoardBaseCharacter3E24770E45A999766811E19068345E79.tmp' to 'W:/GMTK2022GameJam/GameJame2022/Content/Character/BP_BoardBaseCharacter.uasset'
+[2022.07.15-18.40.34:268][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2022.07.15-18.40.34:306][713]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.07.15-18.40.34:329][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.07.15-18.40.34:363][713]AssetCheck: New page: Asset Save: BP_BoardBaseCharacter
+[2022.07.15-18.40.34:363][713]LogContentValidation: Display: Validating Blueprint /Game/Character/BP_BoardBaseCharacter.BP_BoardBaseCharacter
+[2022.07.15-18.40.49:221][435]LogContentBrowser: Attempting asset rename: BP_BoardBaseCharacter -> BP_BoardBaseCharacter
+[2022.07.15-18.40.53:778][952]LogContentBrowser: Deferred new asset file creation: BP_BoardBaseCharacter1
+[2022.07.15-18.40.53:789][952]LogContentBrowser: Creating deferred item: BP_BoardBaseCharacter1
+[2022.07.15-18.41.06:131][433]LogContentBrowser: Attempting asset rename: BP_BoardBaseCharacter1 -> BP_ActionBaseCharacter
+[2022.07.15-18.41.06:281][433]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2022.07.15-18.41.06:410][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_ActionBaseCharacter" FILE="W:/GMTK2022GameJam/GameJame2022/Content/Character/BP_ActionBaseCharacter.uasset" SILENT=true
+[2022.07.15-18.41.06:414][433]LogSavePackage: Moving 'W:/GMTK2022GameJam/GameJame2022/Saved/BP_ActionBaseCharacter25BAA5B847F7893F266565B5342D341D.tmp' to 'W:/GMTK2022GameJam/GameJame2022/Content/Character/BP_ActionBaseCharacter.uasset'
+[2022.07.15-18.41.06:842][433]LogContentBrowser: End creating deferred item BP_BoardBaseCharacter1
+[2022.07.15-18.41.06:846][433]AssetCheck: New page: Asset Save: BP_ActionBaseCharacter
+[2022.07.15-18.41.06:846][433]LogContentValidation: Display: Validating Blueprint /Game/Character/BP_ActionBaseCharacter.BP_ActionBaseCharacter
+[2022.07.15-18.41.08:527][631]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/BP_ActionBaseCharacter.BP_ActionBaseCharacter
+[2022.07.15-18.41.27:472][759]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.07.15-18.41.27:484][759]LogContentBrowser: Creating deferred item: NewFolder
+[2022.07.15-18.41.39:400][185]LogContentBrowser: Attempting asset rename: NewFolder -> ActionCharacters
+[2022.07.15-18.41.39:401][185]LogContentBrowser: End creating deferred item NewFolder
+[2022.07.15-18.41.43:474][568]LogMetaData: Removing '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.SKEL_BP_ActionBaseCharacter_C' ref from Metadata '/Game/Character/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.43:474][568]LogMetaData: Removing '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.BP_ActionBaseCharacter_C' ref from Metadata '/Game/Character/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.43:474][568]LogMetaData: Removing '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.SKEL_BP_ActionBaseCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/Character/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.43:474][568]LogMetaData: Removing '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.SKEL_BP_ActionBaseCharacter_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Character/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.43:474][568]LogMetaData: Removing '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.SKEL_BP_ActionBaseCharacter_C:ReceiveTick' ref from Metadata '/Game/Character/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.43:474][568]LogMetaData: Removing '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.SKEL_BP_ActionBaseCharacter_C:UserConstructionScript' ref from Metadata '/Game/Character/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.43:502][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/ActionCharacters/BP_ActionBaseCharacter" FILE="W:/GMTK2022GameJam/GameJame2022/Content/Character/ActionCharacters/BP_ActionBaseCharacter.uasset" SILENT=true
+[2022.07.15-18.41.43:507][568]LogSavePackage: Moving 'W:/GMTK2022GameJam/GameJame2022/Saved/BP_ActionBaseCharacter8E6C3044454CBED75CD7B18EBFF36723.tmp' to 'W:/GMTK2022GameJam/GameJame2022/Content/Character/ActionCharacters/BP_ActionBaseCharacter.uasset'
+[2022.07.15-18.41.44:009][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.07.15-18.41.44:037][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.07.15-18.41.44:064][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.07.15-18.41.44:249][568]SourceControl: rm 'GameJame2022/Content/Character/BP_ActionBaseCharacter.uasset'
+[2022.07.15-18.41.44:299][568]AssetCheck: New page: Asset Save: BP_ActionBaseCharacter
+[2022.07.15-18.41.44:299][568]LogContentValidation: Display: Validating Blueprint /Game/Character/ActionCharacters/BP_ActionBaseCharacter.BP_ActionBaseCharacter
+[2022.07.15-18.41.46:809][844]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.07.15-18.41.46:820][844]LogContentBrowser: Creating deferred item: NewFolder
+[2022.07.15-18.41.51:706][426]LogContentBrowser: Attempting asset rename: NewFolder -> BoardCharacters
+[2022.07.15-18.41.51:706][426]LogContentBrowser: End creating deferred item NewFolder
+[2022.07.15-18.41.55:792][801]LogMetaData: Removing '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter_C' ref from Metadata '/Game/Character/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.55:792][801]LogMetaData: Removing '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.SKEL_BP_BoardBaseCharacter_C' ref from Metadata '/Game/Character/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.55:792][801]LogMetaData: Removing '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.SKEL_BP_BoardBaseCharacter_C:UserConstructionScript' ref from Metadata '/Game/Character/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.55:792][801]LogMetaData: Removing '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Character/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.55:792][801]LogMetaData: Removing '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Character/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.55:792][801]LogMetaData: Removing '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Character/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.55:792][801]LogMetaData: Removing '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Character/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.41.55:821][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BoardCharacters/BP_BoardBaseCharacter" FILE="W:/GMTK2022GameJam/GameJame2022/Content/Character/BoardCharacters/BP_BoardBaseCharacter.uasset" SILENT=true
+[2022.07.15-18.41.55:825][801]LogSavePackage: Moving 'W:/GMTK2022GameJam/GameJame2022/Saved/BP_BoardBaseCharacter1E9A95334D72724CFBA7BA9655B92574.tmp' to 'W:/GMTK2022GameJam/GameJame2022/Content/Character/BoardCharacters/BP_BoardBaseCharacter.uasset'
+[2022.07.15-18.41.56:334][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.07.15-18.41.56:371][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.07.15-18.41.56:391][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.07.15-18.41.56:571][801]SourceControl: rm 'GameJame2022/Content/Character/BP_BoardBaseCharacter.uasset'
+[2022.07.15-18.41.56:618][801]AssetCheck: New page: Asset Save: BP_BoardBaseCharacter
+[2022.07.15-18.41.56:618][801]LogContentValidation: Display: Validating Blueprint /Game/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter
+[2022.07.15-18.42.14:095][584]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.07.15-18.42.16:689][866]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.07.15-18.42.16:699][866]LogContentBrowser: Creating deferred item: NewFolder
+[2022.07.15-18.42.20:646][339]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2022.07.15-18.42.20:647][339]LogContentBrowser: End creating deferred item NewFolder
+[2022.07.15-18.42.30:436][364]LogMetaData: Removing '/Game/Blueprints/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter_C' ref from Metadata '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:436][364]LogMetaData: Removing '/Game/Blueprints/Character/BoardCharacters/BP_BoardBaseCharacter.SKEL_BP_BoardBaseCharacter_C' ref from Metadata '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:436][364]LogMetaData: Removing '/Game/Blueprints/Character/BoardCharacters/BP_BoardBaseCharacter.SKEL_BP_BoardBaseCharacter_C:UserConstructionScript' ref from Metadata '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:436][364]LogMetaData: Removing '/Game/Blueprints/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:436][364]LogMetaData: Removing '/Game/Blueprints/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:437][364]LogMetaData: Removing '/Game/Blueprints/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:437][364]LogMetaData: Removing '/Game/Blueprints/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Character/BoardCharacters/BP_BoardBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:437][364]LogMetaData: Removing '/Game/Blueprints/Character/ActionCharacters/BP_ActionBaseCharacter.BP_ActionBaseCharacter_C' ref from Metadata '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:437][364]LogMetaData: Removing '/Game/Blueprints/Character/ActionCharacters/BP_ActionBaseCharacter.SKEL_BP_ActionBaseCharacter_C' ref from Metadata '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:437][364]LogMetaData: Removing '/Game/Blueprints/Character/ActionCharacters/BP_ActionBaseCharacter.SKEL_BP_ActionBaseCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:437][364]LogMetaData: Removing '/Game/Blueprints/Character/ActionCharacters/BP_ActionBaseCharacter.SKEL_BP_ActionBaseCharacter_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:437][364]LogMetaData: Removing '/Game/Blueprints/Character/ActionCharacters/BP_ActionBaseCharacter.SKEL_BP_ActionBaseCharacter_C:ReceiveTick' ref from Metadata '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:437][364]LogMetaData: Removing '/Game/Blueprints/Character/ActionCharacters/BP_ActionBaseCharacter.SKEL_BP_ActionBaseCharacter_C:UserConstructionScript' ref from Metadata '/Game/Character/ActionCharacters/BP_ActionBaseCharacter.PackageMetaData'
+[2022.07.15-18.42.30:462][364]LogSavePackage: Moving 'W:/GMTK2022GameJam/GameJame2022/Saved/BP_BoardBaseCharacterD42DEAD84C3B1AC7258FBC878F1ED6AE.tmp' to 'W:/GMTK2022GameJam/GameJame2022/Content/Blueprints/Character/BoardCharacters/BP_BoardBaseCharacter.uasset'
+[2022.07.15-18.42.30:655][364]LogSavePackage: Moving 'W:/GMTK2022GameJam/GameJame2022/Saved/BP_ActionBaseCharacter15E2FD094BB5C2E2B6142AAA62435C97.tmp' to 'W:/GMTK2022GameJam/GameJame2022/Content/Blueprints/Character/ActionCharacters/BP_ActionBaseCharacter.uasset'
+[2022.07.15-18.42.31:356][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.07.15-18.42.31:376][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.07.15-18.42.31:408][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.07.15-18.42.31:435][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.07.15-18.42.31:712][364]SourceControl: rm 'GameJame2022/Content/Character/ActionCharacters/BP_ActionBaseCharacter.uasset'
+[2022.07.15-18.42.31:712][364]SourceControl: rm 'GameJame2022/Content/Character/BoardCharacters/BP_BoardBaseCharacter.uasset'
+[2022.07.15-18.42.31:765][364]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.15-18.42.31:765][364]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/BoardCharacters/BP_BoardBaseCharacter.BP_BoardBaseCharacter
+[2022.07.15-18.42.31:765][364]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/ActionCharacters/BP_ActionBaseCharacter.BP_ActionBaseCharacter
+[2022.07.15-18.43.24:189][364]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.07.15-18.43.24:200][364]LogContentBrowser: Creating deferred item: NewFolder
+[2022.07.15-18.43.26:541][640]LogContentBrowser: Attempting asset rename: NewFolder -> Spaces
+[2022.07.15-18.43.26:542][640]LogContentBrowser: End creating deferred item NewFolder
+[2022.07.15-18.43.35:854][104]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.07.15-18.43.35:869][104]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.07.15-18.43.35:879][104]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.07.15-18.44.05:697][682]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_BoardSpace
+[2022.07.15-18.44.05:807][682]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.07.15-18.44.07:743][911]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Spaces/BP_BoardSpace.BP_BoardSpace
+[2022.07.15-18.44.51:723][699]LogEditorTransaction: Undo Replace component used material
+[2022.07.15-18.44.52:546][764]LogEditorTransaction: Undo Replace component used material
+[2022.07.15-18.46.27:193][439]BlueprintLog: New page: Compile BP_BoardSpace
+[2022.07.15-18.46.27:286][439]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
